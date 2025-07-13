@@ -5,7 +5,7 @@
 	"shortFormVideos": [
 	{
 			"longDescription": "Hello This Is Brandon And This is a test",
-			"thumbnail": "http://10.0.0.163:8000/1.jpg",
+			"thumbnail": "https://portgallery.org/style/photos/1.jpg",
 			"releaseDate": "2020-01-15",
 			"genres": [
 				"educational"
@@ -20,7 +20,7 @@
 				"duration": 100,
 				"videos": [{
 					"videoType": "MP4",
-					"url": "https://image.roku.com/ZHZscHItMTc2/roku-streaming-overview-v3.mp4",
+					"url": "https://portgallery.org/clip1.mp4",
 					"quality": "HD"
 				}],
 				"language": "en-us",
@@ -29,7 +29,7 @@
 		},
 		{
 			"longDescription": "Learn how Roku's rapidly growing user base makes developing for the Roku platform a viable opportunity. See how developing for the Roku platform is free and easy. There's no cost to enroll in the Roku developer program, develop channels, or publish them to the Roku Channel Store, which is Roku's app marketplace. The Roku channel UI is defined with SceneGraph, Roku's object-oriented UI XML framework, and the channel behavior is defined using BrightScript, which is Roku's scripting language.",
-			"thumbnail": "https://image.roku.com/ZHZscHItMTc2/roku-overview.jpg",
+			"thumbnail": "https://portgallery.org/style/photos/1.jpg",
 			"releaseDate": "2020-01-15",
 			"genres": [
 				"educational"
@@ -44,7 +44,7 @@
 				"duration": 248,
 				"videos": [{
 					"videoType": "MP4",
-					"url": "https://image.roku.com/ZHZscHItMTc2/roku-overview.mp4",
+					"url": "https://portgallery.org/clip1.mp4",
 					"quality": "HD"
 				}],
 				"language": "en-us",
@@ -53,7 +53,7 @@
 		},
 		{
 			"longDescription": "Steps for enabling Developer Mode on a Roku device",
-			"thumbnail": "https://image.roku.com/ZHZscHItMTc2/enable-developer-mode-v1b.png",
+			"thumbnail": "https://portgallery.org/style/photos/1.jpg",
 			"releaseDate": "2020-01-17",
 			"genres": [
 				"educational"
@@ -68,7 +68,7 @@
 				"duration": 120,
 				"videos": [{
 					"videoType": "DASH",
-					"url": "https://ovp-selector.sr.roku.com/v1/12cdcf33-58e7-46a6-bbbf-cbb5c5fec500?format=dash",
+					"url": "https://portgallery.org/clip1.mp4",
 					"quality": "HD"
 				}],
 				"language": "en-us",
@@ -113,10 +113,10 @@
 	],
 	"series": [{
 			"id": "series_1_tips",
-			"title": "Sunday, July 6, 2025",
+			"title": "Weekly Clips",
 			"releaseDate": "06-07-2025T02:01:00+02:00",
-			"shortDescription": "Singsperation Sunday",
-			"thumbnail": "http://10.0.0.163:8000/1.jpg",
+			"shortDescription": "Weekly Videos",
+			"thumbnail": "https://portgallery.org/style/photos/1.jpg",
 			"genres": [
 				"Religious"
 			],
@@ -124,16 +124,16 @@
 				"#experience 19th"
 			],
 			"seasons": [{
-					"title": "Season 1",
+					"title": "Clip 1",
 					"episodes": [{
 							"id": "shortform-2f0155ecdcc96789596c0fc77f06b45ca0df15a4",
-							"title": "How to listen to music",
+							"title": "Sunday, July 6, 2025",
 							"episodeNumber": 1,
 							"content": {
 								"dateAdded": "2020-03-06T20:25:52Z",
 								"videos": [{
-									"videoType": "HLS",
-									"url": "https://d1n7kckvd41xqg.cloudfront.net/61f6f859d30743378290300e99f2f53a/ac885a2fea4d4cbeafb279b33e8ba342/21b582aed3134cd4ad03dc646e04282d/index.m3u8",
+									"videoType": "MP4",
+									"url": "https://portgallery.org/style/videos/clip1.mp4",
 									"quality": "HD"
 								}],
 								"duration": 187,
