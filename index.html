@@ -28,6 +28,13 @@
     <source src="style/videos/clip4.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
+
+  <script>
+  fetch("style/content/content.json")
+    .then(res => res.json())
+    .then(data => console.log(data));
+</script>
+
 </body>
 <script src="scripts.js"></script>
 </html>
