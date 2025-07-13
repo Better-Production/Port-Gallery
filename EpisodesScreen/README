@@ -1,0 +1,69 @@
+Content. json will need to be hosted on a server that will then be linked via http.
+
+All content on app can be changed through JSON file. 
+
+All videos will also need to be hosted on a server via http.
+
+To link the json file to the project, get locally hosted server online, open MainLoaderTask.brs, and in the sub GetContent() change the url inside the xfer.SetURL("...") to your local host ip and the file name. (exe. http://10.0.0.163:8000/content.json)
+
+
+
+
+✅ Method 1: Using Python (Simple HTTP Server)
+
+📌 Step 1: Open CMD
+Navigate to the folder containing your video files.
+
+{cmd}
+cd path\to\your\video\folder
+
+
+📌 Step 2: Start the server
+If you have Python 3 installed, run:
+
+{cmd}
+python -m http.server 8000
+If you're using Python 2, use:
+
+{cmd}
+python -m SimpleHTTPServer 8000
+This starts a web server at:
+👉 http://localhost:8000
+or
+👉 http://<your-local-IP>:8000 (to access from other devices on the same network)
+
+
+You can now open your browser and visit that URL to see your videos listed and stream them.
+
+🎥 Most modern browsers can stream .mp4, .webm, and .ogg videos directly.
+
+📡 Access from Other Devices
+To allow other devices (on the same network) to access your server:
+
+Find your local IP address:
+
+{cmd}
+ipconfig
+Look for something like: IPv4 Address: 192.168.1.123
+
+Open the URL from other devices:
+
+{cpp}
+http://192.168.1.123:8000
+🚀 Bonus: Use a Custom HTML Video Player
+Create a file like index.html in the same folder:
+
+html
+Copy
+Edit
+<!DOCTYPE html>
+<html>
+  <body style="background:#000; margin:0;">
+    <video width="100%" height="100%" controls autoplay>
+      <source src="yourvideo.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </body>
+</html>
+Then just visit http://localhost:8000/index.html to use your custom player.
+
