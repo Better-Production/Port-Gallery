@@ -4,27 +4,27 @@
 	"lastUpdated": "2020-03-15T02:01:00+02:00",
 	"shortFormVideos": [
 	{
-			"longDescription": "Hello This Is Brandon And This is a test",
+			"longDescription": "Weekly Recap Video From Sunday's Service",
 			"thumbnail": "https://portgallery.org/style/photos/1.jpg",
-			"releaseDate": "2020-01-15",
+			"releaseDate": "07-13-2025",
 			"genres": [
-				"educational"
+				"Religious"
 			],
 			"tags": [
-				"getting-started"
+				"#experience19th"
 			],
 			"id": "shortform-roku-streaming-overview",
-			"shortDescription": "Hello This Is Brandon And This is a test",
-			"title": "Streaming overview",
+			"shortDescription": "Weekly Recap Video",
+			"title": "Weekly Recap Video",
 			"content": {
-				"duration": 100,
+				"duration": 89,
 				"videos": [{
 					"videoType": "MP4",
 					"url": "https://portgallery.org/clip1.mp4",
 					"quality": "HD"
 				}],
 				"language": "en-us",
-				"dateAdded": "2020-01-15T02:39:11Z"
+				"dateAdded": "07-13-2025T02:39:11Z"
 			}
 		},
 		{
