@@ -20,7 +20,7 @@
 				"duration": 89,
 				"videos": [{
 					"videoType": "MP4",
-					"url": "https://portgallery.org/clip1.mp4",
+					"url": "https://portgallery.org/style/videos/clip1.mp4",
 					"quality": "HD"
 				}],
 				"language": "en-us",
@@ -44,7 +44,7 @@
 				"duration": 248,
 				"videos": [{
 					"videoType": "MP4",
-					"url": "https://portgallery.org/clip1.mp4",
+					"url": "https://portgallery.org/style/videos/clip1.mp4",
 					"quality": "HD"
 				}],
 				"language": "en-us",
@@ -68,7 +68,7 @@
 				"duration": 120,
 				"videos": [{
 					"videoType": "DASH",
-					"url": "https://portgallery.org/clip1.mp4",
+					"url": "https://portgallery.org/style/videos/clip1.mp4",
 					"quality": "HD"
 				}],
 				"language": "en-us",
